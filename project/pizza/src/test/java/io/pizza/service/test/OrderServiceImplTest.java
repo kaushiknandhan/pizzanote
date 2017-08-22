@@ -37,7 +37,6 @@ public class OrderServiceImplTest {
 		while (rowActual != null || rowExpected != null) {
 			if (rowActual == null || rowExpected == null) {
 				isEqual = false;
-
 				break;
 			} else if (!rowActual.equalsIgnoreCase(rowExpected)) {
 				isEqual = false;
